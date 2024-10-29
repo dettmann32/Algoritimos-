@@ -1,3 +1,7 @@
+# TENTATIVA FRACASSADA
+
+
+
 grafo = {}
 
 grafo["lucas"] = ["ana","henrique","luiz"]
@@ -18,7 +22,7 @@ grafo["henrique"] = ["ana", "luiz"]
 
 
 
-print(grafo)
+#print(grafo)
 
 
 
@@ -37,6 +41,7 @@ def pesquisa(pessoa):
     while fila:
         
         for pesG in fila:
+            print(fila)
 
             if pesG == pessoa:
                 
@@ -53,7 +58,6 @@ def pesquisa(pessoa):
                 else:
                     fila.remove(pesG)
                     continue
-
     else:
         return "esse nome não esta na vizinhaça"
 
